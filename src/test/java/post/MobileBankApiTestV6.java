@@ -20,6 +20,7 @@ class MobileBankApiTestV6 {
 
     @Test
     void shouldReturnDemoAccounts() {
+
         given()
                 .spec(requestSpec)
                 .when()
